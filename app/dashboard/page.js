@@ -64,7 +64,7 @@ export default function Dashboard() {
             <div className="max-w-4xl mx-auto">
                 <div className="flex justify-between items-center mb-6">
                     <h1 className="text-3xl text-gray-400 font-bold">Bookmark Dashboard</h1>
-                    <button onClick={() => auth.signOut()} className="bg-red-500 text-white p-2 rounded hover:bg-red-600">
+                    <button onClick={() => auth.signOut()} className="bg-red-500 cursor-pointer text-white p-2 rounded hover:bg-red-600">
                         Sign Out
                     </button>
                 </div>
